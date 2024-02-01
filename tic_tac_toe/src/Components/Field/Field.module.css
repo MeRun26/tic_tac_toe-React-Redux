@@ -1,0 +1,27 @@
+.field {
+	display: grid;
+	grid-template-columns: repeat(3, 165px);
+	grid-template-rows: repeat(3, 165px);
+	gap: 0;
+	height: 500px;
+	width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.cell {
+	font-size: 24px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(0, 0, 0);
+	cursor: pointer;
+}
+
+.x {
+	font-size: 50px;
+	color: red;
+}
+
+.o {
+	font-size: 50px;
+	color: blue;
+}
